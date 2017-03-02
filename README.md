@@ -1,14 +1,14 @@
 # queue.js
 Queue js
 
-<i>Initialize the queue</i><br />
+<h3><i>Initialize the queue</i></h3>
 <p>queue = <b>new</b> Queue();</p>
 
-<i>Push<i/>
+<h3><i>Push<i/></h3>
 <p>queue.push(value);</p>
 
-<i>Pop<i/>
+<h3><i>Pop<i/></h3>
 <p>queue.pop();</p>
 
-<i>Delete a specific item<i/>
+<h3><i>Delete a specific item<i/></h3>
 <p>queue.remove(item);</p>
