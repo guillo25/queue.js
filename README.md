@@ -9,8 +9,6 @@ Queue js
 <pre name="code"><p>queue.pop();</p></pre>
 <h3><i>Delete a specific item<i/></h3>
 <pre name="code"><p>queue.remove(item);</p></pre>
-<h3><i>Delete a specific item<i/></h3>
-<pre name="code"><p>queue.remove(item);</p></pre>
 <h3><i>Count occurrences of an item</i></h3>
 <pre name="code"><p>queue.count(item);</p></pre>
 <h3><i>Lenght</i></h3>
