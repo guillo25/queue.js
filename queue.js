@@ -28,7 +28,7 @@ Queue.prototype.push = function(dato) {
 };
 
 Queue.prototype.pop = function() {
-  this.datos.pop();
+  this.datos.pop;
 };
 
 Queue.prototype.remove = function(dato) {		  
