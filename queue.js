@@ -1,9 +1,28 @@
 function Queue() {
+  this.repetidos = true;
+  if(arguments.length > 1){
+	 throw "Max params invalid";
+  }
+  if(arguments.length == 1){
+	  if(typeof(arguments[0]) === "boolean"){	  
+			this.repetidos = arguments[0];
+	  }		
+	  throw "Parameter not a bool";
+  }
   this.datos = [];  
 }
 
 Queue.prototype.push = function(dato) {
-  this.datos.push(dato);
+  if(this.repetidos){
+	this.datos.push(dato);
+	return true;
+  }else{
+	if(this.count(dato) < 1){
+		this.datos.push(dato);
+		return true;
+	}
+	return false;  
+  }	
 };
 
 Queue.prototype.pop = function(dato) {
