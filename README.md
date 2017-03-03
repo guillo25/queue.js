@@ -3,7 +3,7 @@
 Queue js
 <h3><i>Initialize the queue</i></h3>
 <pre name="code"><p>queue = <b>new</b> Queue();</p></pre>
-<i>Optional boolean parameter in construct (true => Aceptar valores duplicados; defualt: false)</i>
+<i>Optional boolean parameter in construct (true => Accept duplicate values; defualt: true)</i>
 <h3><i>Push<i/></h3>
 <pre name="code"><p>queue.push(value);</p></pre>
 <h3><i>Pop<i/></h3>
