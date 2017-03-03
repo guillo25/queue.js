@@ -1,6 +1,25 @@
 # queue.js
 
 Queue js
+<h3><i>A simple example : </i></h3>
+<pre name="code">
+queue = new Queue();
+						
+queue.push(1);
+queue.push(1);
+queue.push(2);
+queue.push(3);
+queue.push(5);
+queue.push(8);
+queue.push(13);
+queue.push(21);
+queue.push(34);
+			
+while(!queue.isEmpty()){
+  console.log(queue.pop());
+}
+</pre>
+
 <h3><i>Initialize the queue</i></h3>
 <pre name="code"><p>queue = <b>new</b> Queue();</p></pre>
 <i>Optional boolean parameter in construct (true => Accept duplicate values; defualt: true)</i>
