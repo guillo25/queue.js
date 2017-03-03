@@ -1,4 +1,4 @@
-/*Version:2.0 Author: Guillermo Beltramino e-mail:guillote25@gmail.com*/
+/*Version:2.1 Author: Guillermo Beltramino e-mail:guillote25@gmail.com*/
 function Queue() {
   this.repetidos = true;
   if(arguments.length > 1){
@@ -27,7 +27,7 @@ Queue.prototype.push = function(dato) {
   }	
 };
 
-Queue.prototype.pop = function(dato) {
+Queue.prototype.pop = function() {
   this.datos.pop();
 };
 
