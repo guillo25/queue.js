@@ -1,4 +1,4 @@
-/*Version:2.1 Author: Guillermo Beltramino e-mail:guillote25@gmail.com*/
+/*Version:3.0 Author: Guillermo Beltramino e-mail:guillote25@gmail.com*/
 function Queue() {
   this.repetidos = true;
   if(arguments.length > 1){
@@ -63,3 +63,21 @@ Queue.prototype.isEmpty = function() {
 Queue.prototype.toString = function() {
   return this.datos.toString();
 };
+
+Queue.prototype.shuffle = function() {	
+  var currentIndex = this.length(), temporaryValue, randomIndex;
+
+  // While there remain elements to shuffle...
+  while (0 !== currentIndex) {
+
+    // Pick a remaining element...
+    randomIndex = Math.floor(Math.random() * currentIndex);
+    currentIndex -= 1;
+
+    // And swap it with the current element.
+    temporaryValue = this.datos[currentIndex];
+    this.datos[currentIndex] = this.datos[randomIndex];
+    this.datos[randomIndex]  = temporaryValue;
+  }
+
+}
