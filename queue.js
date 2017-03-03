@@ -7,8 +7,9 @@ function Queue() {
   if(arguments.length == 1){
 	  if(typeof(arguments[0]) === "boolean"){	  
 			this.repetidos = arguments[0];
-	  }		
-	  throw "Parameter not a bool";
+	  }else{		
+	  	throw "Parameter not a bool";
+	  }	  
   }
   this.datos = [];  
 }
