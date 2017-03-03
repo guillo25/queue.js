@@ -14,7 +14,9 @@ queue.push(8);
 queue.push(13);
 queue.push(21);
 queue.push(34);
-			
+	
+queue.shuffle();
+
 while(!queue.isEmpty()){
   console.log(queue.pop());
 }
@@ -35,6 +37,8 @@ while(!queue.isEmpty()){
 <pre name="code"><p>queue.lenght();</p></pre>
 <h3><i>Is empty</i></h3>
 <pre name="code"><p>queue.isEmpty();</p></pre>
+<h3><i>Shuffle</i></h3>
+<pre name="code"><p>queue.shuffle();</p></pre>
 <h3><i>To String</i></h3>
 <pre name="code"><p>queue.toString();</p></pre>
 
