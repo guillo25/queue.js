@@ -1,3 +1,4 @@
+/*Version:2.0 Author: Guillermo Beltramino e-amil:guillote25@gmail.com*/
 function Queue() {
   this.repetidos = true;
   if(arguments.length > 1){
