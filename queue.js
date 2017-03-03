@@ -1,4 +1,4 @@
-/*Version:1.0 Author: Guillermo Beltramino e-amil:guillote25@gmail.com*/
+/*Version:1.0 Author: Guillermo Beltramino e-mail:guillote25@gmail.com*/
 function Queue() {
   this.datos = [];  
 }
